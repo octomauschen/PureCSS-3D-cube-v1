@@ -1,0 +1,78 @@
+.cube2{
+
+}
+/*Apply this  1, 5 -works, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12 - not works*/
+./*cube1*/{
+	-webkit-animation: showPart 2s infinite; /* Safari 4+ */
+    -moz-animation:    showPart 2s infinite; /* Fx 5+ */
+    -o-animation:      showPart 2s infinite; /* Opera 12+ */
+    animation:         showPart 2s infinite; /* IE 10+, Fx 29+ */
+    width: 400px;
+	transform-style: preserve-3d;
+    animation: showPart 2s infinite; /* IE 10+, Fx 29+ */
+    animation-iteration-count: 2s;
+    -webkit-animation-iteration-count: 2s;
+    -moz-animation-iteration-count: 2s;
+    -o-animation-iteration-count: 2s;
+}
+/*Different animation delays for different objects.*/
+./*cube1*/{
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+}
+
+@-webkit-keyframes showPart {
+	0%{ 
+		left: 0px;
+	    top: 0px; 
+	}
+	50%{ 
+		/*left: -200px;*/
+	    top: -100px;
+    }
+	100%{ 
+		left: 0px;
+	    top: 0px;
+    }
+
+@-moz-keyframes showPart {
+	0%{ 
+		left: 0px;
+	    top: 0px; 
+	}
+	50%{ 
+		/*left: -200px;*/
+	    top: -100px;
+    }
+	100%{ 
+		left: 0px;
+	    top: 0px;
+    }   
+@-o-keyframes showPart {
+	0%{ 
+		left: 0px;
+	    top: 0px; 
+	}
+	50%{ 
+		/*left: -200px;*/
+	    top: -100px;
+    }
+	100%{ 
+		left: 0px;
+	    top: 0px;
+    }   
+@keyframes showPart {
+	0%{ 
+		left: 0px;
+	    top: 0px; 
+	}
+	50%{ 
+		/*left: -200px;*/
+	    top: -100px;
+    }
+	100%{ 
+		left: 0px;
+	    top: 0px;
+    }   
